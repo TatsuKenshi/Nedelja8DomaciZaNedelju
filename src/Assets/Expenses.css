@@ -1,0 +1,12 @@
+.expensesDiv {
+  font-size: 1.5rem;
+  color: white;
+  background: indianred;
+  width: 50vw;
+  height: 600px;
+  padding-top: 20px;
+}
+
+.expensesDiv h2 {
+  margin-bottom: 20px;
+}

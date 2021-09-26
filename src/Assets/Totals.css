@@ -1,0 +1,39 @@
+.totals {
+  font-size: 1.5rem;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.balance {
+  padding: 0.5rem;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.totalIncome {
+  padding: 0.5rem;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  background: teal;
+  color: white;
+}
+
+.totalExpenses {
+  padding: 0.5rem;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  background: indianred;
+  color: white;
+}

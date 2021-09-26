@@ -1,0 +1,15 @@
+#formDiv {
+  padding: 1.5rem;
+  width: 100vw;
+  background: beige;
+}
+
+#transaction,
+#description,
+#amount,
+#submit {
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

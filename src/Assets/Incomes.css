@@ -1,0 +1,12 @@
+.incomesDiv {
+  font-size: 1.5rem;
+  color: white;
+  background: teal;
+  width: 50vw;
+  height: 600px;
+  padding-top: 20px;
+}
+
+.incomesDiv h2 {
+  margin-bottom: 20px;
+}
