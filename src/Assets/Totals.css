@@ -1,26 +1,22 @@
 .totals {
   font-size: 1.5rem;
   width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   color: white;
 }
 
 .balance {
-  padding: 0.5rem;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 2rem;
-  color: white;
+  /* padding: 0.5rem; */
+  width: 100%;
+  margin: 0 auto;
   font-size: 3.5rem;
+  color: white;
 }
 
 .totalIncome {
   padding: 0.5rem;
   width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   font-size: 2rem;
   background: teal;
   color: white;
@@ -29,11 +25,37 @@
 .totalExpenses {
   padding: 0.5rem;
   width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 10px auto 10px auto;
   font-size: 2rem;
   background: indianred;
   color: white;
+}
+
+@media only screen and (max-width: 850px) {
+  .totals {
+    width: 100%;
+  }
+
+  .balance {
+    font-size: 2rem;
+  }
+
+  .totalIncome,
+  .totalExpenses {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .balance {
+    font-size: 1.5rem;
+  }
+
+  .totalIncome,
+  .totalExpenses {
+    font-size: 1rem;
+  }
 }
