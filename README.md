@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+## Incomes and Expenses React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Incomes and Expenses React is a basic, one-page React.js app. It allows the user to calculate the monthly balance and add and remove incomes and expenses.
 
-## Available Scripts
+## Motivation
 
-In the project directory, you can run:
+The project was made during the 8th week of the IT Bootcamp's Front End Development Course as the React.js remake of the first project assignment (done a few weeks earlier in good old vanilla JavaScript). Also, it was one of the first homeworks in which we used React.
 
-### `npm start`
+## Build status
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The project is considered finished, and there won't be any expansions in terms of features. Responsive design has been finalized, as well.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tech/framework used
 
-### `npm test`
+This project is based on bare bones React.js, with the help of plain CSS3. Due to the simplistic nature of the project, there was no need to use the router. No CSS frameworks or preprocessors were used, either.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+Main features of this app include:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- adding/removing incomes via the input form
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- adding/removing expenses via the input form
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- automatic calculation of the monthly balance, based on entered incomes and expenses
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. To install this project on your machine and get it up and running, you should first clone this repository. Open the terminal, navigate to the desired destination on your drive, and run the following command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/TatsuKenshi/Nedelja8DomaciZaNedelju
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. When the download is done, navigate to the project's folder with the following command:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+cd Nedelja8DomaciZaNedelju
 
-## Learn More
+3. Next, you'll need to install the necessary dependencies. Use the following command (make sure you're in the project's main folder):
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. To spin up the local dev environment, open your code editor/IDE and bring up the terminal. Run the following command in the project's main folder:
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you get an error, try installing an older version of node.js (I recommend 14.18.3), switch to it, and try again.
 
-### Analyzing the Bundle Size
+## API Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+No APIs were used in this project.
 
-### Making a Progressive Web App
+## How to use?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- how to add new income/expense
+  Click on the Transaction drop-down menu and select the type of transactions (income or expense). After that, enter the description (salary, project 1, rent, food expenses, etc). After that, enter the sum amount field, and click on the Submit button. The app will automatically recalculate the balance.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- how to remove an income/expense
+  To remove a transaction from either of the two lists, just click on the Delete button. The app will automatically recalculate the balance.
